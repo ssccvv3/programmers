@@ -1,0 +1,12 @@
+def solution(my_string):
+    a = reversed(my_string)
+    answer = ''.join(a)
+    return answer
+result = solution("food")
+print(result)
+
+def solution(my_string):
+    answer = my_string[::-1]
+    return answer
+result = solution("food")
+print(result)
